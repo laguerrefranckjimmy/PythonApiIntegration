@@ -9,7 +9,7 @@ def get_news(country, api_key='890603a55bfa47048e4490069ebee18c'):
   results = []
   for article in articles:
     results.append(f"{article['title']}\n"
-                   f" {article['description']}\n")
+                   f"{article['description']}\n")
   return results
 
 
